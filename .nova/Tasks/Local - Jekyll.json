@@ -2,7 +2,7 @@
   "actions" : {
     "build" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle update\nbundle install\nbundle exec jekyll build"
+      "script" : "#!\/bin\/sh\nbundle update\nbundle install\nbundle exec jekyll clean\nbundle exec jekyll build"
     },
     "clean" : {
       "enabled" : true,
@@ -10,8 +10,9 @@
     },
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\nbundle exec jekyll serve"
+      "script" : "#!\/bin\/sh\nbundle exec jekyll serve --config _localconfig.yml"
     }
   },
-  "identifier" : "B5221770-7BC4-42BD-9F2A-F09F9E7F6456"
+  "identifier" : "B5221770-7BC4-42BD-9F2A-F09F9E7F6456",
+  "openLogOnRun" : "start"
 }
