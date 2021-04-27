@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
-html, body, div, span, applet, object, iframe, h1, h2, h3, span.sub-legend, h4, body#photos-home nav.pagination p[class^="page--next-prev--"], body#photos-home nav.pagination button[class^="page--next-prev--"], body#photos-home nav.pagination a.button[class^="page--next-prev--"], body#photos-home nav.pagination .text-input[class^="page--next-prev--"], body#photos-home nav.pagination .radio-input[class^="page--next-prev--"], body#photos-home nav.pagination label[class^="page--next-prev--"], body#photos-home nav.pagination .label-hint[class^="page--next-prev--"], body#photos-home nav.pagination input[class^="page--next-prev--"][type="text"], body#photos-home nav.pagination input[class^="page--next-prev--"][type="email"], body#photos-home nav.pagination textarea[class^="page--next-prev--"], body#photos-home nav.pagination body#wishlist-home fieldset#toggle-purchased legend[class^="page--next-prev--"], body#wishlist-home fieldset#toggle-purchased body#photos-home nav.pagination legend[class^="page--next-prev--"], h5, h6, p, body#wishlist-home fieldset#toggle-purchased legend, input[type="text"], input[type="email"], textarea, .label-hint, .text-input, .radio-input, button, a.button, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, span.sub-legend, h4, body#photos-home nav.pagination p[class^="page--next-prev--"], body#photos-home nav.pagination button[class^="page--next-prev--"], body#photos-home nav.pagination a.button[class^="page--next-prev--"], body#photos-home nav.pagination .text-input[class^="page--next-prev--"], body#photos-home nav.pagination .radio-input[class^="page--next-prev--"], body#photos-home nav.pagination label[class^="page--next-prev--"], body#photos-home nav.pagination .label-hint[class^="page--next-prev--"], body#photos-home nav.pagination input[class^="page--next-prev--"][type="text"], body#photos-home nav.pagination input[class^="page--next-prev--"][type="email"], body#photos-home nav.pagination textarea[class^="page--next-prev--"], body#photos-home nav.pagination body#wishlist-home fieldset#toggle-purchased legend[class^="page--next-prev--"], body#wishlist-home fieldset#toggle-purchased body#photos-home nav.pagination legend[class^="page--next-prev--"], h5, h6, p, body#wishlist-home fieldset#toggle-purchased legend, input[type="text"], input[type="email"], textarea, .label-hint, .text-input, .radio-input, button, a.button, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table thead, table tfoot, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
@@ -208,7 +208,7 @@ blockquote ol:last-child { padding-bottom: 0; }
 
 blockquote p ~ ol, blockquote body#wishlist-home fieldset#toggle-purchased legend ~ ol, body#wishlist-home fieldset#toggle-purchased blockquote legend ~ ol, blockquote input[type="text"] ~ ol, blockquote input[type="email"] ~ ol, blockquote textarea ~ ol, blockquote .label-hint ~ ol, blockquote label ~ ol, blockquote .text-input ~ ol, blockquote .radio-input ~ ol, blockquote button ~ ol, blockquote a.button ~ ol, blockquote p ~ ul, blockquote body#wishlist-home fieldset#toggle-purchased legend ~ ul, body#wishlist-home fieldset#toggle-purchased blockquote legend ~ ul, blockquote input[type="text"] ~ ul, blockquote input[type="email"] ~ ul, blockquote textarea ~ ul, blockquote .label-hint ~ ul, blockquote label ~ ul, blockquote .text-input ~ ul, blockquote .radio-input ~ ul, blockquote button ~ ul, blockquote a.button ~ ul { margin-top: -22px; padding-bottom: 11px; }
 
-strong, b, dt { font-weight: bold; }
+strong, table thead, table tfoot, b, dt { font-weight: bold; }
 
 em, i { font-style: italic; }
 
@@ -408,17 +408,53 @@ pre code { font-size: 22px; line-height: 1.25; }
 
 @media only screen and (min-width: 1200px) { pre code { line-height: 1.2; } }
 
-table { width: unset; border-collapse: unset; font-size: unset; line-height: unset; margin: unset; padding: unset; }
+table { width: 100%; border-collapse: collapse; font-size: 22px; line-height: 1.25; margin: 0 0 22px 0; }
 
-table tr { border: unset; }
+@media only screen and (min-width: 600px) and (max-width: 765px) { table { font-size: 22px; } }
 
-table th, table td { padding: unset; vertical-align: unset; border: unset; }
+@media only screen and (min-width: 766px) and (max-width: 999px) { table { font-size: 22px; } }
 
-table thead, table tfoot { font-weight: unset; }
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { table { font-size: 26px; } }
 
-table thead { border: unset; }
+@media only screen and (min-width: 1200px) { table { font-size: 30px; } }
 
-table tfoot { border: unset; }
+@media only screen and (min-width: 600px) and (max-width: 765px) { table { line-height: 1.25; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { table { line-height: 1.25; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { table { line-height: 1.25; } }
+
+@media only screen and (min-width: 1200px) { table { line-height: 1.2; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { table { margin: 0 0 22px 0; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { table { margin: 0 0 22px 0; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { table { margin: 0 0 26px 0; } }
+
+@media only screen and (min-width: 1200px) { table { margin: 0 0 30px 0; } }
+
+table tr { border-bottom: 1px solid #e9ecef; }
+
+@media (prefers-color-scheme: dark) { table tr { border-bottom: 1px solid #343a40; } }
+
+table tr:last-child { border-bottom: none !important; }
+
+table th, table td { padding: 5px 10px; vertical-align: top; border-left: 1px solid #e9ecef; }
+
+@media (prefers-color-scheme: dark) { table th, table td { border-left: 1px solid #343a40; } }
+
+table th:first-child, table td:first-child { border-left: none; }
+
+table thead, table tfoot { text-align: left; }
+
+table thead { border-bottom: 2px solid #1d1d1d; }
+
+@media (prefers-color-scheme: dark) { table thead { border-bottom: 2px solid #fafafa; } }
+
+table tfoot { border-top: 2px solid #1d1d1d; }
+
+@media (prefers-color-scheme: dark) { table tfoot { border-top: 2px solid #fafafa; } }
 
 details { display: block; position: relative; margin: 0; padding: 0; }
 
@@ -2805,6 +2841,34 @@ body#photos-photo div.footnotes p, body#photos-photo div.footnotes button, body#
 @media only screen and (min-width: 1200px) { body#photos-photo div.footnotes p, body#photos-photo div.footnotes button, body#photos-photo div.footnotes a.button, body#photos-photo div.footnotes .text-input, body#photos-photo div.footnotes .radio-input, body#photos-photo div.footnotes label, body#photos-photo div.footnotes .label-hint, body#photos-photo div.footnotes input[type="text"], body#photos-photo div.footnotes input[type="email"], body#photos-photo div.footnotes textarea, body#photos-photo div.footnotes body#wishlist-home fieldset#toggle-purchased legend, body#wishlist-home fieldset#toggle-purchased body#photos-photo div.footnotes legend { padding: 0 0 30px 0; } }
 
 body#photos-photo div.footnotes a.reversefootnote { text-decoration: none; font-family: "JP", ui-monospace, "SFMono-Regular", -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", Roboto, "Segoe UI", Arial, sans-serif !important; }
+
+body[id^="email"] section#page-content::after { content: ""; clear: both; display: table; }
+
+body[id^="email"] div#email-fields { display: grid; grid-template-areas: "fields fields" "style output" "update update"; grid-template-columns: 1fr 1fr; grid-gap: 30px; }
+
+body[id^="email"] fieldset#radios--style { grid-area: style; }
+
+body[id^="email"] fieldset#inputs--fields { grid-area: fields; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr; grid-gap: 30px; }
+
+body[id^="email"] fieldset#radios--output { grid-area: output; }
+
+body[id^="email"] fieldset#button--update-and-copy { grid-area: update; display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; grid-template-areas: "title title" "update copy"; grid-gap: 30px; }
+
+body[id^="email"] fieldset#button--update-and-copy button { margin-bottom: 10px; }
+
+body[id^="email"] div#email-preview { max-width: 600px; }
+
+body[id^="email"] table { width: unset; border-collapse: unset; font-size: unset; line-height: unset; margin: unset; padding: unset; }
+
+body[id^="email"] table tr { border: unset; }
+
+body[id^="email"] table th, body[id^="email"] table td { padding: unset; vertical-align: unset; border: unset; }
+
+body[id^="email"] table thead, body[id^="email"] table tfoot { font-weight: unset; }
+
+body[id^="email"] table thead { border: unset; }
+
+body[id^="email"] table tfoot { border: unset; }
 
 body.theme-eurovision summary span.country, body.theme-eurovision summary span.song-artist { display: block; width: 100%; }
 
