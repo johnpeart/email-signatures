@@ -40,7 +40,7 @@ function formatPersonalSignature(name, address, phone, email, website, twitter) 
 			<td valign="top">
 				<span style="font-size: 10pt; line-height: 1.4;"><a href="tel:`
 	signature += phone;
-	signature += `" title="Call my number" style="color: #009fe3; text-decoration: none;">`
+	signature += `" title="Call my number" style="color: #005abb; text-decoration: none;">`
 	signature += phone;
 	signature += `</a></span>
 			</td>
@@ -54,7 +54,7 @@ function formatPersonalSignature(name, address, phone, email, website, twitter) 
 			<td style="vertical-align: top;" valign="top">
 				<span style="font-size: 10pt; line-height: 1.4;"><a href="mailto:`
 	signature += email;
-	signature += `" title="Send me an email" style="color: #009fe3; text-decoration: none;">`
+	signature += `" title="Send me an email" style="color: #005abb; text-decoration: none;">`
 	signature += email;
 	signature += `</a></span>
 			</td>
@@ -80,7 +80,7 @@ function formatPersonalSignature(name, address, phone, email, website, twitter) 
 			<td style="vertical-align: top;" valign="top">
 				<span style="font-size: 10pt; line-height: 1.4;"><a href="https://`
 	signature += website;
-	signature += `" title="Visit my website" style="color: #009fe3; text-decoration: none;">`
+	signature += `" title="Visit my website" style="color: #005abb; text-decoration: none;">`
 	signature += website;
 	signature += `</a></span>
 			</td>
@@ -94,7 +94,7 @@ function formatPersonalSignature(name, address, phone, email, website, twitter) 
 			<td style="vertical-align: top;" valign="top">
 				<span style="font-size: 10pt; line-height: 1.4;"><a href="https://www.twitter.com/`
 	signature += twitter;
-	signature += `" title="Visit my website" style="color: #009fe3; text-decoration: none;">@`
+	signature += `" title="Visit my website" style="color: #005abb; text-decoration: none;">@`
 	signature += twitter;
 	signature += `</a></span>
 			</td>
@@ -143,7 +143,7 @@ function formatWorkSignature(name, role, team, address, phone, email) {
 			<td style="vertical-align: top;" valign="top">
 				<span style="font-size: 10pt; line-height: 1.3;"><a href="tel:`
 				signature += phone;
-				signature += `" title="Call my number" style="color: #009fe3; text-decoration: none;">`
+				signature += `" title="Call my number" style="color: #005abb; text-decoration: none;">`
 				signature += phone;
 				signature += `</a></span>
 			</td>
@@ -155,7 +155,7 @@ function formatWorkSignature(name, role, team, address, phone, email) {
 			<td style="vertical-align: top;" valign="top">
 				<span style="font-size: 10pt; line-height: 1.3;"><a href="mailto:`
 				signature += email;
-				signature += `" title="Send me an email" style="color: #009fe3; text-decoration: none;">`
+				signature += `" title="Send me an email" style="color: #005abb; text-decoration: none;">`
 				signature += email;
 				signature += `</a></span>
 			</td>
