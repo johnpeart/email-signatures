@@ -112,7 +112,7 @@ function formatWorkSignature(name, role, team, address, phone, email) {
 	<table style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; width: 100%; max-width: 600px;" cellpadding="0" cellspacing="0" border="0">
 		<tr>
 			<td rowspan="4" valign="top" style="min-width: 140px; max-width: 140px; padding-right: 10px; vertical-align: top;">
-				<div style="border-left: 2px solid #d40072; padding-left: 6px;">
+				<div style="border-left: 2px solid #005abb; padding-left: 6px;">
 					<img border="0" alt="Logo" width="40" style="display: block; width:40px; height:auto; border:0; clear: both; margin-bottom: 6px;" src="https://www.johnpe.art/email-signatures/assets/images/email/work-logo.png">
 					<span style="display: block; font-size: 10pt; line-height: 1.2">Government<br>Equalities Office</span>
 				</div>
